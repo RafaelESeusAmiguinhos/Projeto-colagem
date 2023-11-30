@@ -1,0 +1,38 @@
+body{
+    background:beige;
+}
+h1{
+    font-family: cursive;
+    font-style: italic;
+    font-weight: bold;
+}
+h4{
+    background: rgb(128, 200, 21);
+}
+#camera{
+    width: 500px;
+    height: 400px;
+    border: 1px solid salmon;
+}
+img{
+    width: 37%;
+    border-radius: 400px;
+    padding:10px;
+    box-shadow: 0 6px 8px 0 cadetblue;
+}
+img:hover{
+    border-radius: 140px;
+}
+.column{
+    display: inline;
+    padding: 10px;
+}
+.copy_right_footer{
+    position:fixed;
+    bottom: 0;
+    color:aliceblue;
+    width:100%;
+    background-color: aquamarine;
+    line-height: 3;
+    text-align: center;
+}
